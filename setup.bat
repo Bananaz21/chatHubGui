@@ -1,3 +1,3 @@
 py -m pip install PySimpleGUI
-py -m pip install socketio
+pip install python-socketio==4.6.0
 py -m pip install requests
