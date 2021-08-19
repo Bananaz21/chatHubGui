@@ -6,7 +6,7 @@ import urllib.parse
 import json
 
 sio = socketio.Client()
-url = 'http://localhost:80'
+url = input('What is the ip? Remember to add the "http" as well!')
 s = requests.Session()
 
 sg.theme('LightGreen1') # give our window a spiffy set of colors
